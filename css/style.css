@@ -1,0 +1,95 @@
+body{
+	margin: 0 auto;
+}
+
+
+.top{
+	background: url('../top.png');
+}
+
+.text-center{
+	text-align: center	;
+}
+
+#name{
+	padding-top: 10%;
+	margin-top:0px;
+	margin-bottom: 0px;
+	font-size: 340%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+	color: white;
+}
+
+#me{
+	padding-bottom: 10%;
+	margin-top: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: white;
+}
+
+#gd{
+	background-color: white; 
+	color: black;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.heading{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 170%;
+	margin-top: 0px;
+	padding-bottom: 1%;
+	padding-top: 5%;
+
+}
+
+.container{
+	padding-left: 8%;
+	padding-right: 8%;
+	
+}
+
+#who{
+	background-color: rgba(195,195,195,0.2);
+}
+
+.content{
+	margin-right: 5%;
+	margin-left:5%;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	padding-bottom: 6%;
+	margin-bottom: 0px;
+}
+
+
+footer{
+
+	background: url('../diagmonds.png');
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	padding-bottom: 3%;
+	padding-top: 4%;
+}
+
+@media(max-width: 768px){
+	#name{
+		padding-top: 40%;
+		font-size:251%;
+	}
+
+	#me{
+		padding-bottom: 40%;
+		font-size:82%;
+	}
+
+}
