@@ -11,6 +11,25 @@ body{
 	text-align: center	;
 }
 
+#calc{
+	background-color: #F9F9F9;
+}
+
+#device{
+	 margin: 0 auto;
+	 width: 245px;
+	 padding-bottom: 3%;
+}
+
+
+
+.circle{
+	width: 72px;
+	height: 70px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
 #name{
 	padding-top: 10%;
 	margin-top:0px;
@@ -31,7 +50,7 @@ body{
 }
 
 #gd{
-	background-color: white; 
+	background-color: white;
 	color: black;
 	padding-left: 3px;
 	padding-right: 3px;
@@ -54,7 +73,7 @@ body{
 .container{
 	padding-left: 8%;
 	padding-right: 8%;
-	
+
 }
 
 #who{
