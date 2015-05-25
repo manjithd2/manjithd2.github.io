@@ -17,12 +17,12 @@
 		
 	}
 
-	function del (d) {
+	function del () {
 		var scr = document.getElementById('screen');
 		scr.value = scr.value.slice(0,-1);
 	}
 
-	function clr (c){
+	function clr (){
 	var scr = document.getElementById('screen');
 		scr.value="";	
 	}

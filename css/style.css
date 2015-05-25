@@ -11,23 +11,66 @@ body{
 	text-align: center	;
 }
 
+#screen{
+	text-align: right;
+	width: 211px;
+}
+
 #calc{
 	background-color: #F9F9F9;
 }
 
+
+
 #device{
 	 margin: 0 auto;
-	 width: 245px;
+	 width:20%;
+	 height: 250px;
 	 padding-bottom: 3%;
+	 background-color:; 
+}
+
+#number{
+	background-color: #656464;
+	float: left;
+	width:173.5px;
+}
+
+#number>span {
+     width: 55px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    line-height: 50px;
+    background-color: #656464;
+    display:block;
+    color: white;
+}
+
+#opr{
+	float: right;
+	width:43.5px;
+	background-color: #CCC7C7;
+	height: 220px;
 }
 
 
 
-.circle{
-	width: 72px;
-	height: 70px;
-	border-radius: 50%;
-	margin: 0 auto;
+#opr>span{
+	width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    float: right;
+    line-height: 30px;
+    background-color: #CCC7C7;
+    display:block;
+    color: white;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    font-family: 'Raleway', sans-serif;	
 }
 
 #name{

@@ -57,29 +57,29 @@
 			<div id="device">
 				<input id="screen" type="text">
 				<br>
-				<input type="button" value="7" onclick="disp(7)">
-				<input type="button" value="8" onclick="disp(8)">
-				<input type="button" value="9" onclick="disp(9)">
-				<input type="button" value="/" onclick="disp('/')">
-				<input type="button" value="Del" onclick="del('d')">
-				<br>
-				<input type="button" value="4" onclick="disp(4)">
-				<input type="button" value="5" onclick="disp(5)">
-				<input type="button" value="6" onclick="disp(6)">
-				<input type="button" value="*" onclick="disp('*')">
-				<input type="button" value="C" onclick="clr('c')">
-				<br>
-				<input type="button" value="1" onclick="disp(1)">
-				<input type="button" value="2" onclick="disp(2)">
-				<input type="button" value="3" onclick="disp(3)">
-				<input type="button" value="-" onclick="disp('-')">
-				<br>
-				<input type="button" value="." onclick="disp('.')">
-				<input type="button" value="0" onclick="disp(0)">
-				<input type="button" value="=" onclick="disp('=')">
-				<input type="button" value="+" onclick="disp('+')">
-	
-			</div> 
+				<div id="number">
+				<span onclick="disp(7)"> 7 </span>
+				<span onclick="disp(8)"> 8 </span >
+				<span onclick="disp(9)"> 9 </span >
+				<span onclick="disp(4)"> 4 </span>
+				<span onclick="disp(5)"> 5 </span >
+				<span onclick="disp(6)"> 6 </span>
+				<span onclick="disp(1)"> 1 </span >
+				<span onclick="disp(2)"> 2 </span>
+				<span onclick="disp(3)"> 3 </span >
+				<span onclick="disp('.')"> . </span >
+				<span onclick="disp(0)"> 0 </span >
+				<span onclick="disp('=')"> = </span >
+			</div>
+			<div id="opr">
+				<span onclick="disp('+')"> + </span>
+				<span onclick="del()"> DEL </span>
+				<span onclick="disp('/')"> / </span >
+				<span onclick="disp('*')"> * </span >
+				<span onclick="clr()"> C </span>
+				<span onclick="disp('-')"> - </span>
+			</div>
+		</div>
 		</div>
 	</section>
 
