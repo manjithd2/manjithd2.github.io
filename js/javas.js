@@ -26,3 +26,5 @@
 	var scr = document.getElementById('screen');
 		scr.value="";	
 	}
+
+	

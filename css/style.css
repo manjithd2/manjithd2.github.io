@@ -42,12 +42,18 @@ body{
     text-align: center;
     border-radius: 50%;
     float: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Myriad Pro', sans-serif;
     line-height: 50px;
+    opacity: 1;
     background-color: #656464;
     display:block;
     color: white;
 }
+
+#number>span:hover{
+	background-color: #909090;
+}
+
 
 #opr{
 	float: right;
@@ -70,8 +76,13 @@ body{
     color: white;
     margin-bottom: 7px;
     margin-right: 7px;
-    font-family: 'Raleway', sans-serif;	
+    font-family: 'Myriad Pro', sans-serif;	
 }
+
+#opr>span:hover{
+	background-color: #E1DBDB;
+}
+
 
 #name{
 	padding-top: 10%;
