@@ -1,30 +1,40 @@
-
-		function disp(no){
+window.onload=function(){
+	var t = document.getElementById('del');
+	var scr= document.getElementById('screen');
+			var timer;
+			t.addEventListener('mousedown',function(){
+				timer = setTimeout(function(){
+							scr.value="";
+				},500)
+			},false);
 			
-			var scr = document.getElementById('screen');
+			t.addEventListener('mouseup',function(){
+				clearTimeout(timer);
+			},false);
+}
 
-			if (no == '=') {
-				var e = eval(scr.value);
-				scr.value = e;
 
-			}
-
-			else {
+function disp(no){
 			
-			scr.value+=no;
-
-			}
-		
-	}
-
-	function del () {
-		var scr = document.getElementById('screen');
-		scr.value = scr.value.slice(0,-1);
-	}
-
-	function clr (){
 	var scr = document.getElementById('screen');
-		scr.value="";	
-	}
+
+		if (no == '=') {
+			var e = eval(scr.value);
+			scr.value = e;
+
+		}
+
+		else {
+			
+    		scr.value+=no;
+
+		}
+}
+
+function del () {
+	var scr = document.getElementById('screen');
+	scr.value = scr.value.slice(0,-1);
+}
+
 
 	
