@@ -14,6 +14,13 @@ body{
 #screen{
 	text-align: right;
 	width: 211px;
+	padding-bottom: 19px;
+	padding-right: 12px;
+	padding-top: 22px;
+	border: none;
+	font-size: 25px;
+    box-shadow: 0px 6px 5px -6px #000;
+
 }
 
 #calc{
@@ -24,14 +31,14 @@ body{
 
 #device{
 	 margin: 0 auto;
-	 width:217.5px;
+	 width:223.5px;
 	 height: 250px;
-	 padding-bottom: 3%;
+	 padding-bottom: 7%;
 	 background-color:; 
 }
 
 #number{
-	background-color: #656464;
+	background-color: #434343;
 	float: left;
 	width:173.5px;
 }
@@ -45,20 +52,21 @@ body{
     font-family: 'Myriad Pro', sans-serif;
     line-height: 50px;
     opacity: 1;
-    background-color: #656464;
+    background-color: #434343;
     display:block;
     color: white;
 }
 
+
 #number>span:hover{
-	background-color: #909090;
+	background-color: #636363;
 }
 
 
 #opr{
-	float: right;
+	float: left;
 	width:43.5px;
-	background-color: #CCC7C7;
+	background-color: #636363;
 	height: 220px;
 }
 
@@ -71,7 +79,7 @@ body{
     border-radius: 50%;
     float: right;
     line-height: 30px;
-    background-color: #CCC7C7;
+    background-color: #636363;
     display:block;
     color: white;
     margin-bottom: 7px;
@@ -80,7 +88,14 @@ body{
 }
 
 #opr>span:hover{
-	background-color: #E1DBDB;
+	background-color: #898989;
+}
+
+#sci{
+	background-color: #1de9b6;
+	width: 6.5px;
+	height: 220px;
+	float:right;
 }
 
 
@@ -165,4 +180,7 @@ footer{
 		font-size:82%;
 	}
 
+	#device{
+		padding-bottom: 25%;
+	}
 }
