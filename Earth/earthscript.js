@@ -18,7 +18,7 @@ function loadImage(name){
     resourceLoaded();
   }
 
-  images[name].src= "images/"+ name + ".png";
+  images[name].src= "Earth/images/"+ name + ".png";
 
 }
 
