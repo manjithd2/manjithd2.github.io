@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Manjith" content="">
+
+	<title>Manjith Dungdung</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Cardo:700,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link href="css/style.css" rel="stylesheet">
+	 <script src="js/jquery.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	 <script src="js/jquery.drawsvg.min.js"></script>
+	 <style type="text/css">
+	 		#page-content-wrapper{
+	 			padding-top: 0;
+	 	}
+	 </style>
+</head>
+
+<body>
+
+
+
+<div id="wrapper">
+      <div class="overlay"></div>
+ <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="work.html">WORK</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+<div id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+			<span class="hamb-bottom"></span>
+      </button>
+	<div id="portfolio-bg"></div>
+	<div class="container">
+		<div id="portfolio-image">
+				<h2>STOCKIST</h2>
+				<h4>A wedding card retailer app</h4>
+
+        <div class="ux-content">
+          <div class="col-md-8 col-md-offset-2">
+            <p>One morning, I was contacted about a project involving a problem faced by wedding card retailers. This is my story of my approach to solving a problem about an industry I knew nothing about.</p>
+
+            <h3>THE PROBLEM</h3>
+            <p>
+              When a retailer shows wedding cards to a client, he is usually unaware of it’s availability in stock unless and otherwise enquired by the customer or during his stock checkups. This not only affects his sales but also the customer who doesn’t get the desired wedding card design. 
+            </p>
+
+            <h3>UNDERSTANDING THE PROCESS</h3>
+            <p>Since I had no prior knowledge of how the industry fuctions, I got down to do some research to find the pain points that were having direct impact on the problem.</p>
+            <p>When a customer selects a card at a Wedding card shop, the retailer confirms the availability of the card by making a call to the warehouse, where an inventory manager turns the pages of his dusty book to check the stock of the card. This process ranges from minutes to hours to even a day! This means problems for two parties, one being the customer who has to wait and in the worst case be informed about the unavailability of the card after a day! The other party being the inventory manager who needs to find the card, but that’s his job (can this be made more easier? ). On an average day, a inventory manager deals with 100 - 400 orders. Now, that's a large number and to deal with that is surely an herculean task.</p>
+          </div>
+          <div class="col-md-12">
+            <img class="img-responsive" src="images/stockist/workflow.jpg">
+          </div>
+          <div class="col-md-12">
+            <img class="img-responsive" src="images/stockist/flow.jpg">
+          </div>
+          <div class="col-md-8 col-md-offset-2" style="text-align:center">
+            <p>
+              <i>The process in the flow which determines the speed of the process.</i>
+            </p>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <h3>PROBLEMS IN THE PROCESS</h3>
+          <ul>
+            <li>Collectively an offline process, requires manpower.</li>
+            <li>Difficult for the inventory manager to keep track of all orders.</li>
+            <li>Slow card search time.</li>
+            <li>Time consuming for the customer.</li>
+          </ul>
+
+          <h3>PERSONNA</h3>
+          <p>
+              Mahesh is a 35 year old card retailer, who has inherited his shop from his father. He is not a  graduate and he spends most of his time chatting with his friends when not attending to customers. Despite being a major player in the wedding card industry he hasn’t achieved 100% conversion rate from his customers. He spends most of his time in his shop and his day starts by cleaning the cards for display and attending calls from the warehouse which supplies cards, informing him about the cards that are out of stock. The warehouse supplies cards to other retailers also.<br>
+              <b>Goals</b> Increase conversion rate and customer satisfaction.<br>
+              <b>Frustration</b> the everyday routine of calling the warehouse about the out of stock cards, in order to not lose customer because of unavailability of card.
+          </p>
+
+          <h3>SOLUTION</h3>
+          <p>
+            Looking at the exisiting process, I tried to eliminate the need of the retailer to depend on the inventory manager for checking the availability of the card. Instead of having a fully offline process it was more benefecial if the whole inventory was shifted to the cloud. This would mean that the retailer would be able to check the availabilty of the card and also eliminate the routine calls to the inventory manager by just using the app.
+          </p>
+          </div>
+
+          <div class="col-md-12">
+             <img class="img-responsive" src="images/stockist/new workflow.png">
+          </div>
+         
+          <div class="col-md-8 col-md-offset-2">
+            <h3>SCENARIOS</h3>
+          <p>
+            How would the solution prove to be more efficient? A retailer would just have to scan the barcode/ QR code present in the card with the app which would retrieve the information about the card from the cloud. </p>
+            <p>
+            <i>But what happens after that? </i>
+            </p>
+            <p>
+            The customer might confirm the card and the retailer has almost converted the customer, he gets the initial payment for blocking the card for the customer and has to inform the stockist about the same because the stockist would not initiate the delivery until the full amount is paid. 
+            </p>
+            <p>
+            <i>What happens if the customer doesn't pay the full amount or doesn't pay at all? </i>
+            </p>
+            <p>
+            To tackle this, there's a block period imposed for each card and the customer should pay the full amount before it expires. The card will be released after the expiration of the block period.  
+            </p>
+            <p>
+            <i>What if the stockist has only 300 cards but the customer wants 500 cards? </i>
+            </p>
+            <p>
+              In the case of such shortages, the stockist is notified about the request and he mentions the delivery date. There are 3 states in this Accept, Reject and Modified. 
+              <br><b>Accept: </b> The stockist can deliver the card by the date mentioned by the retailer.
+              <br><b>Reject: </b> The stockist cannot deliver the card by the date mentioned by the retailer.
+              <br><b>Modify: </b> The stockist can deliver the card by the date mentioned by the stockist, the retailer can choose to accept or reject.
+            </p>
+
+            <h3>WIREFRAMES</h3>
+            <p>Considering my observations and solution scenarios, I came up with wireframes.</p>
+          </div>
+          <div class="col-md-12">
+            <img src="images/stockist/wf-exp.jpg">
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <h3>MOCKUPS</h3>
+            <p>Few screens based out of the wireframes.</p>
+          </div>
+          <div class="col-md-12">
+            <img src="images/stockist/showcase.jpg">
+
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <h3>USER TESTING</h3>
+            <p>The retailers were able to check the availability of the card using the scan option and since the app is in development other features like Requsets, Payment weren't tested, however the retailers.</p>
+            <h3>FUTURE PLANS</h3>
+            <ul>
+              <li>Make Onboarding screens for users new to the smartphone evnivronment.</li>
+              <li>Conduct user testing for Requests and payment features.</li>
+              <li>Implement more features about the card purchasing trends.</li>
+
+            </ul>
+          
+          </div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+</script>
+</body>
+</html>

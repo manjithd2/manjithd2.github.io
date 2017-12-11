@@ -11,17 +11,29 @@
 
 	<title>Manjith Dungdung</title>
 
+		<link href='https://fonts.googleapis.com/css?family=Cardo:700,400' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
 
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
 	 <link href="css/style.css" rel="stylesheet">
 	 <script src="js/jquery.js"></script>
 	 <script src="js/bootstrap.min.js"></script>
-	 <script src="js/jquery.drawsvg.min.js"></script>
-	 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
+<div id="loading">
+<div id="loading-center">
+<div id="loading-center-absolute">
+<div class="object" id="object_four"></div>
+<div class="object" id="object_three"></div>
+<div class="object" id="object_two"></div>
+<div class="object" id="object_one"></div>
+
+</div>
+</div>
+ 
+</div>
  <!--
   <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -61,6 +73,7 @@
 			<p>GRAPHIC / WEB / UI / UX</p>
 			<ul>
 				<a href="work.html" id="work"><li>WORK</li></a>
+				<a href="images/resume-new-mod.pdf"id="resume"><li>RESUME</li></a>
 				<a href="about.html"id="about"><li>ABOUT ME</li></a>
 				<!-- <a href="contact.html" id="contact"><li>CONTACT</li></a> -->
 			</ul>
@@ -79,6 +92,10 @@
 	</ul>
 </footer> -->
 <script> 
+$(window).load(function() {
+	$("#loading").fadeOut(500);
+	
+});
  $('#about').hover(function(){
 			$('#bg').fadeTo(1000,0.5);
 			},

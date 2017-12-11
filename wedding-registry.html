@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Manjith" content="">
+
+	<title>Manjith Dungdung</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Cardo:700,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link href="css/style.css" rel="stylesheet">
+	 <script src="js/jquery.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	 <script src="js/jquery.drawsvg.min.js"></script>
+	 <style type="text/css">
+	 		#page-content-wrapper{
+	 			padding-top: 0;
+	 	}
+	 </style>
+</head>
+
+<body>
+
+
+
+<div id="wrapper">
+      <div class="overlay"></div>
+ <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="work.html">WORK</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+<div id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+			<span class="hamb-bottom"></span>
+      </button>
+	<div id="portfolio-bg"></div>
+	<div class="container">
+		<div id="portfolio-image">
+				<h2>INDIAN WEDDING REGISTRY</h2>
+				<h4>Can a wedding registry work in India?</h4>
+
+        <div class="ux-content">
+          <div class="col-md-8 col-md-offset-2">
+            <p>Wedding registry is a concept not a very known concept in the Indian wedding scene. Especially in a country where the marriage’s are all taken care of by the elders, signs of this western practice isn’t likely to be found. But with the rise of the youth taking care of their marriages <a href="http://that1card.com/"> that1card </a>wanted to see if this concept would be successful for Indian weddings.
+
+            I was tasked for this along with two other members.The concept of wedding registry was new to me and I had to do my fair share of research to learn about it. This concept of putting it out to your guests what you wanted for your wedding really got my attention because</p>
+            <ul>
+              <li>This wasn’t really followed in India.</li>
+              <li>This solved a major issue of gifting items that were of little or no use to the couple.</li>
+            </ul>
+            <p>
+            I was curios to see how this model would fare in Indian weddings and to  implement such a concept in India was something I wanted to try. I did some research and found out that there were a few companies in India that were doing this wedding registry business one of them being Amazon.
+            </p>
+
+            <h3>BETTER, USEFUL GIFTS?</h3>
+            <p>
+             I really wanted to improve the gifting process and make it more meaningful. In India, couples usually receive gifts like mixers, grinders etc. which aren’t any use to them, most of the time. This was clearly a waste of money because neither parties would benefit from it.
+            </p>
+
+            <h3>ASKING PEOPLE</h3>
+            <p>I couldn’t gauge the scope of this problem in India and wanted to know if it really was worth solving. I wasn’t surprise when people told me they had not idea what a wedding registry was. I asked a few couples and they told that they did find most of the gifts unrelated and were keen on having a wedding registry for themselves especially the one’s settling abroad after marriage. Some relatives even contacted the couple’s parents to know what to gift the couple. This was the same case with close friends as well (ironic huh?). I wanted to reach out a wider audience hence I created a survey targeting six age groups, asking them about the problem. 
+
+            Most of the response that we received was positive and so we decided to try out this feature and add it to the wedding websites we create for the couples.</p>
+          </div>
+          <div class="col-md-12">
+            <img class="img-responsive" src="images/wr/survey.jpg">
+          </div>
+         <div class="col-md-8 col-md-offset-2">
+            <h3>THE CONTRIBUTE FEATURE</h3>
+            <p>Another feature that we wanted to implement was the contribute button. This button would let a guest to contribute money to a larger contribution for a much expensive gift.This was something new which other websites hadn't tried but it was worth taking a risk.</p>
+            
+            <h3>THE IDEA</h3>
+            <p>
+             This idea originated from the way teenagers gift their friends, in a group. This not only saves them from burning a hole in their pocket but also helps the bride and groom get that one gift!
+            </p>
+          </div>
+          <div class="col-md-12">
+            <h3>WOULD IT WORK?</h3>
+            <img class="img-responsive" src="images/wr/contribute.jpg">
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            <h3>THE PROBLEM</h3>
+            <p>Adding this new feature gave rise to a number of problems. And since it was probably the first implementation the risk factor was high.</p>
+            <ul>
+              <li><b>Contribution isn’t present in external wedding registry websites.</b> This means that we would have to create our own wedding registry portal. </li>
+              <li><b>What if the contribution doesn’t reach the full amount?</b> This is a major drawback and probably a deal breaker. </li>
+            </ul>
+            <h3>THE SOLUTION</h3>
+            <p>
+             We found the answer to both these problems in the traditional Indian wedding scene. “Shagun”, which is money given to the bride and groom as a form of gift. The money collected would be given to the bride and groom as “shagun” and they are free to use the money. For example, a honeymoon to Bali would cost them ~3L , if ~2L is collected then the couple could cover the other half of the cost.  
+            </p>
+          </div>
+          
+         
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+</script>
+</body>
+</html>
