@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="Manjith" content="">
+
+	<title>Manjith Dungdung</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:700,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	 <link href="css/style.css" rel="stylesheet">
+	 <script src="js/jquery.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	 <script src="js/jquery.drawsvg.min.js"></script>
+	 <style type="text/css">
+	 		#page-content-wrapper{
+	 			padding-top: 0;
+	 	}
+	 </style>
+</head>
+
+<body>
+
+
+
+<div id="wrapper">
+      <div class="overlay"></div>
+ <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="work.html">WORK</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+<div id="page-content-wrapper">
+      <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+			<span class="hamb-bottom"></span>
+      </button>
+	<div id="about-bg"></div>
+	<div class="container">
+		<div id="about">
+			<div class="col-md-6">
+				<h2>ABOUT ME</h2>
+					<p>I'm Manjith Dungdung, a UI/UX designer and a web designer based out of India. I use digital technologies to create design solutions through a cross-disciplinary approach. </p>
+					<p>I also have a coding background which enables me to implement my ideas seamlessly. I am a very deadline oriented person delivering quality work in the designated time with client satisfaction given utmost priority. </p>
+
+          <p>Have a project? Hit me up at manjith.dungdung@gmail.com</p>
+			</div>
+		</div>
+ 		<footer>
+	 		<img id="footer-logo" src="images/logo.png">
+	 		<h3> Or you could find me!</h3>
+	 		<ul>
+				<a href="http://www.facebook.com/manjithd2"><li><img src="images/facebook.png"></li></a>
+				<a href="https://in.linkedin.com/in/manjith-dungdung-6a3163b5"><li><img src="images/linkedin.png"></li></a>
+				<a href="https://plus.google.com/103453796163471319813"><li><img src="images/g+.png"></li></a>
+				<!-- <a href="http://www.facebook.com"><li><img src="images/dribbble.png"></li></a> -->
+				<a href="http://www.github.com/manjithd2"><li><img src="images/github.png"></li></a>
+			</ul>
+		</footer>
+	</div>
+</div>
+<script>$('footer').animate({ opacity: 1 }, { duration: 2500 });</script>
+<script>$('#about-bg').animate({ opacity: 0.4 }, { duration: 2500 });</script>
+<script>
+	$(document).ready(function () {
+  var trigger = $('.hamburger'),
+      overlay = $('.overlay'),
+     isClosed = false;
+
+    trigger.click(function () {
+      hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+</script>
+</body>
+</html>
